@@ -1,0 +1,11 @@
+#clock_span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-family: "Cafe24Meongi-W-v1.0";
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 0vw;
+}

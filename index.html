@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="clock">
+      <span id="clock_span">00:00:00</span>
+    </div>
+    <div class="div_all">
+      <div id="weather" class="weather_div">
+        <span>Today weather</span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <form id="form_choise">
+      <input
+        class="hidden"
+        type="text"
+        placeholder="What you are name?"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder ='What you are name?'"
+      />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <div class="quotes_first">
+      <div id="quotes" class="quotes_div">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <form id="list-form" class="list--form">
+      <input
+        type="text"
+        placeholder="you are list"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder ='you are list'"
+      />
+    </form>
+    <ul id="list-ul" class="style-ul"></ul>
+
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/bgimage.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7a357c0d40.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

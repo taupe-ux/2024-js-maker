@@ -1,0 +1,29 @@
+#form_choise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form_choise input {
+  font-size: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+#form_choise input:focus {
+  color: white;
+}
+#form_choise input::placeholder {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#greeting {
+  font-size: 70px;
+  color: #ffadc5;
+  font-family: "Cafe24Meongi-W-v1.0";
+  font-weight: 900;
+}

@@ -1,0 +1,10 @@
+.weather_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 25px;
+  background-color: ivory;
+  justify-content: flex-end;
+  right: 25px;
+  position: absolute;
+}
